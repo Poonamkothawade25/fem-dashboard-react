@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/fem-dashboard-react/static/css/main.fc60ae42.css",
+    "main.js": "/fem-dashboard-react/static/js/main.ae65278f.js",
+    "index.html": "/fem-dashboard-react/index.html",
+    "main.fc60ae42.css.map": "/fem-dashboard-react/static/css/main.fc60ae42.css.map",
+    "main.ae65278f.js.map": "/fem-dashboard-react/static/js/main.ae65278f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fc60ae42.css",
+    "static/js/main.ae65278f.js"
+  ]
+}
