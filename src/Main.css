@@ -1,0 +1,30 @@
+.container {
+    max-width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4rem 0;
+}
+
+.main-container {
+    max-width: 80%;
+    background-color: hsl(226, 43%, 10%);
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+@media all and (min-width: 375px) {
+
+    .container {
+        margin: 0;
+    }
+
+    .main-container {
+        max-width: 60%;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 1.5rem;
+    }
+    
+}

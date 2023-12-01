@@ -1,0 +1,95 @@
+.profile-main-container {
+    min-width: 100%;
+    background-color: hsl(235, 46%, 20%);
+    color: hsl(235, 45%, 61%);
+    border-radius: 0.7rem;
+    grid-row: span 2;
+}
+
+.profile-container {
+    max-width: 100%;
+    background-color: hsl(246, 80%, 60%);
+    padding: 1rem;
+    border-radius: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.profile-pic{
+    width: 25%;
+    border: 0.1rem solid white;
+    border-radius: 50%;
+}
+
+.profile-container p {
+    font-size: 0.6rem;
+    font-weight: 400;
+    color: hsl(236, 100%, 87%);
+    margin-bottom: 0.1rem;
+}
+
+.name {
+    font-size: clamp(1rem, 2vw, 2rem); 
+    font-weight: 300;
+    color: white;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.profile-main-container button {
+    background-color: transparent;
+    font-size: 0.9rem;
+    font-weight: 400;
+    outline: none;
+    border: none;
+    color: inherit;
+    padding: 1rem 0;
+    letter-spacing: 0.03rem;
+    user-select: none;
+    cursor: pointer;
+}
+
+.profile-main-container button:hover,
+.profile-main-container button:focus {
+    color: white;
+}
+
+
+@media all and (min-width: 375px) {
+
+    .profile-main-container {
+        padding-bottom: 1rem;
+    }
+
+    .profile-container {
+        margin-bottom: 1rem;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 1.5rem 1.5rem 4rem;
+    }
+
+    .profile-pic {
+        width: 45% ;
+        margin-bottom: 1.3rem;
+    }
+
+    .profile-container p {
+        font-size: 0.75rem;
+    }
+
+    .nav-container {
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+    .profile-main-container button {
+        font-size: 0.8rem;
+        padding: 0.5rem 1.5rem;
+    }
+}

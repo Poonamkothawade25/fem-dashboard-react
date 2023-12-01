@@ -1,0 +1,90 @@
+.area-main-container {
+    max-width: 100%;
+    /* background-color: hsl(15, 100%, 70%);
+    background-image: url("../public/images/icon-self-care.svg"); */
+    background-size: 20%;
+    background-repeat: no-repeat;
+    background-position: top -6% right 7%;
+    color: hsl(236, 100%, 87%);
+    border-radius: 0.7rem;
+    padding-top: 2rem;
+    margin-top: 1rem;
+}
+
+.area-container {
+    background-color: hsl(235, 46%, 20%);
+    border-radius: inherit;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.area-container:hover {
+    background-color: hsl(236, 46%, 36%);
+}
+
+
+.area-name {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.elipsis-btn {
+    background-color: transparent;
+    outline-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.elipsis-btn img {
+    width: 1rem;
+}
+
+.elipsis-btn:hover img {
+    filter: brightness(120%);
+}
+
+.area-name h5 {
+    font-weight: 500;
+    color: white;
+}
+
+.area-stats {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.area-stats h2 {
+    font-size:  clamp(1.6rem, 2.5vw, 2.5rem);
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.836);
+}
+
+.stats {
+    font-size: 0.7rem;
+    font-weight: 300;
+}
+
+@media all and (min-width: 375px) {
+    .area-main-container {
+        margin-top: 0;
+        background-size: 30%;
+        background-position: top -6% right 10%;
+        padding-top: 3rem;
+    }
+
+    .area-container {
+        padding: 1.5rem;
+    }
+    
+
+    .area-stats {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .area-stats h2 {
+        margin: 1rem 0 0.3rem;
+    }
+}
