@@ -12,7 +12,7 @@ export default function Profile() {
             </div>
 
             <nav className="nav-container">
-                <button className="">Daily</button>
+                <button>Daily</button>
                 <button>Weekly</button>
                 <button>Monthly</button>
             </nav>
